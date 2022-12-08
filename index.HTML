@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Totion</title>
+    <link href="./style.css" rel="stylesheet"></link>
+    <script src="./script.js"></script>
+</head>
+<body>
+<div class="header">
+  <div class="title">
+    <h1>Totion</h1>
+  </div>    
+  <div class="task_adder">
+     <input id="input_box">
+       <input type="radio" class="categories" id="personal" name="category" >Personal</input>
+       <input type="radio" class="categories" id="business" name="category" >Business</input>
+       <input type="radio" class="categories" id="other" name="category" >Other</input>
+     <button id="add_button" onclick="add()"><i class="fa-solid fa-plus"></i> Add Task</button>
+     <button id="clear_all" onclick="clear1()"><i class="fa-solid fa-trash-can"></i></button>
+  </div>
+</div>
+<div class="tasks">
+</div>
+
+</body>
+</html>
